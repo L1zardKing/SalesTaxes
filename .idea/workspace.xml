@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/testTest.java" line="27" />
+    <bookmark url="file://$PROJECT_DIR$/src/testTest.java" line="10" />
     <bookmark url="file://$PROJECT_DIR$/src/testTest.java" line="21" />
-    <bookmark url="file://$PROJECT_DIR$/src/testTest.java" line="4" />
-    <bookmark url="file://$PROJECT_DIR$/src/testTest.java" line="15" />
     <bookmark url="file://$PROJECT_DIR$/src/Receipt.java" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9427dde3-fc10-49e1-bf24-b87650f11021" name="Default" comment="" />
+    <list default="true" id="9427dde3-fc10-49e1-bf24-b87650f11021" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/WrongFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XPeppers/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XPeppers/Good.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XPeppers/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XPeppers/Receipt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/XPeppers/testTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XPeppers/testTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +27,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Receipt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-599">
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="132">
+              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2391#2392#0" expanded="true" />
+                <element signature="e#2438#2439#0" expanded="true" />
+                <element signature="e#2477#2478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrongFormatException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WrongFormatException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="32" />
+              <folding>
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,49 +58,59 @@
       <file leaf-file-name="Good.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Good.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="-1105">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1748#1749#0" expanded="true" />
                 <element signature="e#1796#1797#0" expanded="true" />
                 <element signature="e#1835#1836#0" expanded="true" />
                 <element signature="e#1866#1867#0" expanded="true" />
-                <element signature="e#1918#1919#0" expanded="true" />
-                <element signature="e#1958#1959#0" expanded="true" />
                 <element signature="e#1989#1990#0" expanded="true" />
                 <element signature="e#2016#2017#0" expanded="true" />
-                <element signature="e#2056#2057#0" expanded="true" />
-                <element signature="e#2088#2089#0" expanded="true" />
                 <element signature="e#2124#2125#0" expanded="true" />
                 <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2198#2199#0" expanded="true" />
-                <element signature="e#2232#2233#0" expanded="true" />
                 <element signature="e#2272#2273#0" expanded="true" />
                 <element signature="e#2304#2305#0" expanded="true" />
-                <element signature="e#2358#2359#0" expanded="true" />
-                <element signature="e#2400#2401#0" expanded="true" />
-                <element signature="e#2456#2457#0" expanded="true" />
-                <element signature="e#2500#2501#0" expanded="true" />
                 <element signature="e#2542#2543#0" expanded="true" />
                 <element signature="e#2575#2576#0" expanded="true" />
                 <element signature="e#2627#2628#0" expanded="true" />
                 <element signature="e#2664#2665#0" expanded="true" />
-                <element signature="e#2728#2729#0" expanded="true" />
-                <element signature="e#2780#2781#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="193">
+              <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockJUnit4ClassRunner.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
+              <folding>
+                <element signature="e#5477#5676#0" expanded="true" />
+                <element signature="e#5675#5676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -96,14 +134,18 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/testing/testTest.java" />
         <option value="$PROJECT_DIR$/src/SalesTaxes.java" />
-        <option value="$PROJECT_DIR$/src/testTest.java" />
-        <option value="$PROJECT_DIR$/src/Receipt.java" />
         <option value="$PROJECT_DIR$/src/Good.java" />
+        <option value="$PROJECT_DIR$/src/WrongFormatException.java" />
+        <option value="$PROJECT_DIR$/src/Receipt.java" />
+        <option value="$PROJECT_DIR$/src/testTest.java" />
       </list>
     </option>
   </component>
@@ -116,12 +158,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -250,6 +293,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="testTest.testWrongInputFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XPeppers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testTest" />
+      <option name="METHOD_NAME" value="testWrongInputFormat" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="testTest.thirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XPeppers" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -294,10 +354,12 @@
       <item itemvalue="JUnit.testTest.secondTest" />
       <item itemvalue="JUnit.testTest" />
       <item itemvalue="JUnit.testTest.thirdTest" />
+      <item itemvalue="JUnit.testTest.testWrongInputFormat" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.testTest" />
+        <item itemvalue="JUnit.testTest.testWrongInputFormat" />
         <item itemvalue="JUnit.testTest.thirdTest" />
         <item itemvalue="JUnit.testTest.firstTest" />
         <item itemvalue="JUnit.testTest.secondTest" />
@@ -315,64 +377,64 @@
       <option name="presentableId" value="Default" />
       <updated>1541538829393</updated>
       <workItem from="1541538837749" duration="5561000" />
-      <workItem from="1541841477080" duration="9221000" />
+      <workItem from="1541841477080" duration="13892000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testTest - 2018.11.10 at 13h 48m 53s.xml">
+    <history-entry file="testTest_testWrongInputFormat - 2018.11.10 at 15h 37m 35s.xml">
+      <configuration name="testTest.testWrongInputFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testTest_testWrongInputFormat - 2018.11.10 at 15h 37m 58s.xml">
+      <configuration name="testTest.testWrongInputFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testTest_testWrongInputFormat - 2018.11.10 at 15h 38m 45s.xml">
+      <configuration name="testTest.testWrongInputFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testTest_testWrongInputFormat - 2018.11.10 at 15h 39m 37s.xml">
+      <configuration name="testTest.testWrongInputFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testTest_testWrongInputFormat - 2018.11.10 at 15h 40m 20s.xml">
+      <configuration name="testTest.testWrongInputFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testTest - 2018.11.10 at 15h 43m 09s.xml">
       <configuration name="testTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testTest - 2018.11.10 at 13h 51m 06s.xml">
+    <history-entry file="testTest - 2018.11.10 at 15h 46m 12s.xml">
       <configuration name="testTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testTest_thirdTest - 2018.11.10 at 13h 56m 20s.xml">
-      <configuration name="testTest.thirdTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testTest - 2018.11.10 at 13h 58m 39s.xml">
+    <history-entry file="testTest - 2018.11.10 at 15h 46m 35s.xml">
       <configuration name="testTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testTest - 2018.11.10 at 13h 59m 00s.xml">
+    <history-entry file="testTest - 2018.11.10 at 15h 49m 04s.xml">
       <configuration name="testTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testTest - 2018.11.10 at 13h 59m 32s.xml">
-      <configuration name="testTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testTest_thirdTest - 2018.11.10 at 14h 06m 08s.xml">
-      <configuration name="testTest.thirdTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testTest_thirdTest - 2018.11.10 at 14h 07m 03s.xml">
-      <configuration name="testTest.thirdTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testTest_thirdTest - 2018.11.10 at 14h 07m 11s.xml">
-      <configuration name="testTest.thirdTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testTest - 2018.11.10 at 14h 07m 16s.xml">
+    <history-entry file="testTest - 2018.11.10 at 15h 49m 11s.xml">
       <configuration name="testTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14782000" />
+    <option name="totallyTimeSpent" value="19453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-29" width="1366" height="797" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.328594" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.342812" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34405595" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.44707742" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49926794" weight="0.21958926" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18448023" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18448023" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -425,15 +487,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Good.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -441,11 +495,23 @@
         <watch expression="good.getPrice()" language="JAVA" />
         <watch expression="good.getQuantity()" language="JAVA" />
         <watch expression="taxes.equals(new BigDecimal(&quot;0.00&quot;))" language="JAVA" />
+        <watch expression="goods," language="JAVA" />
+        <watch expression="goods.substring(7)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>goods.substring(7)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>goods,</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>taxes.equals(new BigDecimal(&quot;0.00&quot;))</expression-string>
         <language-id>JAVA</language-id>
@@ -473,6 +539,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -493,28 +565,16 @@
             <element signature="e#1796#1797#0" expanded="true" />
             <element signature="e#1835#1836#0" expanded="true" />
             <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
             <element signature="e#1989#1990#0" expanded="true" />
             <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2056#2057#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
             <element signature="e#2124#2125#0" expanded="true" />
             <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2198#2199#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
             <element signature="e#2272#2273#0" expanded="true" />
             <element signature="e#2304#2305#0" expanded="true" />
-            <element signature="e#2358#2359#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
             <element signature="e#2542#2543#0" expanded="true" />
             <element signature="e#2575#2576#0" expanded="true" />
             <element signature="e#2627#2628#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -548,24 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
@@ -601,56 +647,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testTest.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5477#5676#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WrongFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Good.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="-1105">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1748#1749#0" expanded="true" />
             <element signature="e#1796#1797#0" expanded="true" />
             <element signature="e#1835#1836#0" expanded="true" />
             <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
             <element signature="e#1989#1990#0" expanded="true" />
             <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2056#2057#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
             <element signature="e#2124#2125#0" expanded="true" />
             <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2198#2199#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
             <element signature="e#2272#2273#0" expanded="true" />
             <element signature="e#2304#2305#0" expanded="true" />
-            <element signature="e#2358#2359#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
             <element signature="e#2542#2543#0" expanded="true" />
             <element signature="e#2575#2576#0" expanded="true" />
             <element signature="e#2627#2628#0" expanded="true" />
             <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Receipt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="132">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

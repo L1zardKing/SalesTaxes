@@ -1,24 +1,30 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.math.BigDecimal;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.IsEqual.equalTo;
+
 public class testTest {
 
 
     @Test
     public void firstTest() throws  Exception {
-        Receipt salesTaxes = new Receipt();
+        Receipt receipt = new Receipt();
 
         String expectedFirstOutput = "2 book: 24.98\n" +
                 "1 music CD: 16.49\n" +
                 "1 chocolate bar: 0.85\n" +
                 "Sales Taxes: 1.50\n" +
                 "Total: 42.32";
-        salesTaxes.addEntryToReceipt("2 book at 12.49");
-        salesTaxes.addEntryToReceipt("1 music CD at 14.99");
-        salesTaxes.addEntryToReceipt("1 chocolate bar at 0.85");
+        receipt.addEntryToReceipt("2 book at 12.49");
+        receipt.addEntryToReceipt("1 music CD at 14.99");
+        receipt.addEntryToReceipt("1 chocolate bar at 0.85");
 
-        String receipt = salesTaxes.printReceipt();
-        Assert.assertEquals("First output", receipt, expectedFirstOutput);
+        String receiptString = receipt.printReceipt();
+        assertThat("First output", receiptString, is(equalTo(expectedFirstOutput)));
 
     }
 
@@ -36,7 +42,7 @@ public class testTest {
         salesTaxes.addEntryToReceipt("1 imported bottle of perfume at 47.50");
 
         String receipt = salesTaxes.printReceipt();
-        Assert.assertEquals("Second output", receipt, expectedFirstOutput);
+        assertThat("Second output", receipt, is(equalTo(expectedFirstOutput)));
 
     }
 
@@ -52,17 +58,26 @@ public class testTest {
                 "Sales Taxes: 7.90\n" +
                 "Total: 98.38";
 
-        salesTaxes.addEntryToReceipt("1 imported bottle of perfume at 27.99\n");
-        salesTaxes.addEntryToReceipt("1 bottle of perfume at 18.99\n");
-        salesTaxes.addEntryToReceipt("1 packet of headache pills at 9.75\n");
-        salesTaxes.addEntryToReceipt("3 box of imported chocolates at 11.25\n");
+        salesTaxes.addEntryToReceipt("1 imported bottle of perfume at 27.99");
+        salesTaxes.addEntryToReceipt("1 bottle of perfume at 18.99");
+        salesTaxes.addEntryToReceipt("1 packet of headache pills at 9.75");
+        salesTaxes.addEntryToReceipt("3 box of imported chocolates at 11.25");
 
         String receipt = salesTaxes.printReceipt();
-        Assert.assertEquals("Third output", receipt, expectedFirstOutput);
+        assertThat("Third output", receipt, is(equalTo(expectedFirstOutput)));
 
     }
 
-    @org.junit.After
-    public void tearDown() throws Exception {
+    @Test(expected = WrongFormatException.class)
+    public void testWrongInputFormat() throws Exception{
+        Receipt receipt = new Receipt();
+        receipt.addEntryToReceipt("book 2 at 12.49");
+    }
+
+    @Test()
+    public void handleGoodsWithNumbersInName() throws Exception{
+        Receipt receipt = new Receipt();
+        receipt.addEntryToReceipt("2 book 2 at 12.49");
+        assertThat(receipt.getTotalAmount(), is(equalTo(new BigDecimal("24.98"))));
     }
 }

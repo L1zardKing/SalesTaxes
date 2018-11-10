@@ -6,23 +6,42 @@ import java.util.regex.Pattern;
 
 public class Receipt {
 
+    private final static String INPUT_PATTERN = "^([0-9])+[ ](.*)$";
+
     private List<Good> goodsList = new ArrayList<>();
     private BigDecimal totalAmount = new BigDecimal("0.00");
     private BigDecimal salesTaxesAmount = new BigDecimal("0.00");
 
     public void addEntryToReceipt(String goods) throws Exception{
-        Pattern p = Pattern.compile("([0-9])+[ ]([A-z, ]+)([0-9,.]+)");
-        Matcher m = p.matcher(goods);
+        Pattern p = Pattern.compile(INPUT_PATTERN);
+
+        Integer pos = findPriceStartingPos (goods);
+        String priceStripped = goods.substring(0, pos);
+        BigDecimal price = new BigDecimal(goods.substring(pos));
+
+        Matcher m = p.matcher(priceStripped);
+
         if (m.find()) {
-            addGood(m);
+            addGood(m, price);
         } else {
-            throw new Exception("Input string format is wrong");
+            throw new WrongFormatException("Input string format is wrong");
         }
     }
 
-    private void addGood(Matcher m) {
+    private Integer findPriceStartingPos(String goods) {
+        Integer pos = 0;
+        for (int i = goods.length()-1; i>0; i--) {
+            if (Character.isDigit(goods.charAt(i)) || goods.charAt(i)=='.'){
+                pos = i;
+            } else {
+                return pos;
+            }
+        }
+        return pos;
+    }
+
+    private void addGood(Matcher m, BigDecimal price) {
         BigDecimal quantity = new BigDecimal(m.group(1));
-        BigDecimal price = new BigDecimal(m.group(3));
         String name = m.group(2);
         Good newGood = new Good(quantity, name, price);
         newGood.checkTaxFares();
@@ -47,8 +66,17 @@ public class Receipt {
         stringBuffer.append("Sales Taxes: ").append(salesTaxesAmount).append("\n");
         stringBuffer.append("Total: ").append(totalAmount);
         receipt = stringBuffer.toString();
+
+        System.out.println(receipt);
+
         return receipt;
     }
 
+    public BigDecimal getTotalAmount() {
+        return totalAmount;
+    }
 
+    public BigDecimal getSalesTaxesAmount() {
+        return salesTaxesAmount;
+    }
 }
