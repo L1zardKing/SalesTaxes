@@ -1,4 +1,4 @@
 # SalesTaxes
 SalesTaxes
 
-Import the project as a java project inside an IDE and run the tests.
+Clone the repo, import the project as a java project inside an IDE and run the tests (testTest.java class) with jUnit4. 
